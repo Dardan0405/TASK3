@@ -1,0 +1,18 @@
+.Tabs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Tab{
+    background: blue;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border: 5px yellow;
+    cursor: pointer;
+    position: relative;
+}
+.tabi-aktiv{
+    border: none;
+    background: wheat;
+}

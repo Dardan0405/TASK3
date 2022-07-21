@@ -1,0 +1,25 @@
+*, *::after,*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.Tabs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Tab{
+    background: blue;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border: 5px yellow;
+    cursor: pointer;
+    position: relative;
+}
+.tabi-aktiv{
+    border: none;
+    background: wheat;
+}
